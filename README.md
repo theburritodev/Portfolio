@@ -10,8 +10,8 @@ Sou um entusiasta autodidata da tecnologia, sempre buscando aprender e evoluir m
 
 Aqui estão alguns dos meus projetos mais recentes e interessantes:
 
-### [Nome do Projeto 1](link_para_o_projeto)
-Breve descrição do projeto 1. Inclua informações sobre as tecnologias utilizadas, problemas resolvidos e o que o torna especial.
+### [Calculadora web](https://theburritodev.github.io/Portfolio/Calculadora%20web/)
+Uma calculadora simples criada com Html, Css e Javascript nativo.
 
 ### [Nome do Projeto 2](link_para_o_projeto)
 Breve descrição do projeto 2. Destaque os principais recursos e funcionalidades que você implementou.
