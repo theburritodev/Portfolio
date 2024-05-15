@@ -13,15 +13,9 @@ Aqui estão alguns dos meus projetos mais recentes e interessantes:
 ### [Calculadora web](https://theburritodev.github.io/Portfolio/Calculadora%20web/)
 Uma calculadora simples criada com Html, Css e Javascript nativo.
 
-### [Nome do Projeto 2](link_para_o_projeto)
-Breve descrição do projeto 2. Destaque os principais recursos e funcionalidades que você implementou.
-
-### [Nome do Projeto 3](link_para_o_projeto)
-Breve descrição do projeto 3. Compartilhe sua experiência de desenvolvimento e os desafios enfrentados durante o processo.
-
 ## Contato
 
 - **Email:** leonardopinezi.ti@gmail.com
-- **GitHub:** [seu perfil do GitHub](link_para_o_perfil)
+- **GitHub:** [meu perfil do GitHub](https://github.com/theburritodev)
 
 Sinta-se à vontade para entrar em contato comigo para colaborações, oportunidades de emprego ou apenas para trocar ideias e experiências!
