@@ -21,7 +21,7 @@ Breve descrição do projeto 3. Compartilhe sua experiência de desenvolvimento 
 
 ## Contato
 
-- **Email:** leonardopinezi.ti@gmaik.com
+- **Email:** leonardopinezi.ti@gmail.com
 - **GitHub:** [seu perfil do GitHub](link_para_o_perfil)
 
 Sinta-se à vontade para entrar em contato comigo para colaborações, oportunidades de emprego ou apenas para trocar ideias e experiências!
