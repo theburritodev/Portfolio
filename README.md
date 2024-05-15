@@ -1,0 +1,33 @@
+# Meu Portfólio
+
+Bem-vindo ao meu portfólio! Sou lwonardo, um jovem programador front-end brasileiro de 17 anos apaixonado por criar experiências incríveis na web. Neste repositório, você encontrará alguns dos meus projetos destacados e informações sobre como entrar em contato comigo.
+
+## Sobre Mim
+
+Sou um entusiasta autodidata da tecnologia, sempre buscando aprender e evoluir minhas habilidades. Comecei minha jornada na programação aos 8 anos e desde então venho explorando o mundo do desenvolvimento web. Meu foco principal é o desenvolvimento front-end, onde tenho experiência com HTML, CSS e JavaScript. Estou sempre em busca de desafios que me permitam expandir meu conhecimento e aprimorar minhas habilidades.
+
+## Projetos Destacados
+
+Aqui estão alguns dos meus projetos mais recentes e interessantes:
+
+### [Nome do Projeto 1](link_para_o_projeto)
+Breve descrição do projeto 1. Inclua informações sobre as tecnologias utilizadas, problemas resolvidos e o que o torna especial.
+
+![Captura de tela do Projeto 1](link_para_a_imagem)
+
+### [Nome do Projeto 2](link_para_o_projeto)
+Breve descrição do projeto 2. Destaque os principais recursos e funcionalidades que você implementou.
+
+![Captura de tela do Projeto 2](link_para_a_imagem)
+
+### [Nome do Projeto 3](link_para_o_projeto)
+Breve descrição do projeto 3. Compartilhe sua experiência de desenvolvimento e os desafios enfrentados durante o processo.
+
+![Captura de tela do Projeto 3](link_para_a_imagem)
+
+## Contato
+
+- **Email:** leonardopinezi.ti@gmaik.com
+- **GitHub:** [seu perfil do GitHub](link_para_o_perfil)
+
+Sinta-se à vontade para entrar em contato comigo para colaborações, oportunidades de emprego ou apenas para trocar ideias e experiências!
