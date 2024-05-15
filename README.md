@@ -13,17 +13,11 @@ Aqui estão alguns dos meus projetos mais recentes e interessantes:
 ### [Nome do Projeto 1](link_para_o_projeto)
 Breve descrição do projeto 1. Inclua informações sobre as tecnologias utilizadas, problemas resolvidos e o que o torna especial.
 
-![Captura de tela do Projeto 1](link_para_a_imagem)
-
 ### [Nome do Projeto 2](link_para_o_projeto)
 Breve descrição do projeto 2. Destaque os principais recursos e funcionalidades que você implementou.
 
-![Captura de tela do Projeto 2](link_para_a_imagem)
-
 ### [Nome do Projeto 3](link_para_o_projeto)
 Breve descrição do projeto 3. Compartilhe sua experiência de desenvolvimento e os desafios enfrentados durante o processo.
-
-![Captura de tela do Projeto 3](link_para_a_imagem)
 
 ## Contato
 
