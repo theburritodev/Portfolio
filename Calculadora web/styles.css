@@ -1,5 +1,6 @@
 body{
   background-color: #222;
+  height: 100vh;
 }
 *
 {
@@ -36,4 +37,9 @@ body{
 #buttons li:active
 {
   background-color: #444;
+}
+
+#display
+{
+  padding: 20px;
 }
