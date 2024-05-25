@@ -67,8 +67,8 @@ const animate = ()=>{
     apple.y = Math.floor(Math.random()*100);
     
     snake.push({
-      x : SnakeHead.x,
-      y : SnakeHead.y
+      x : SnakeHead.x-SnakeHead.speedX,
+      y : SnakeHead.y-SnakeHead.speedY
     });
   }
 }
