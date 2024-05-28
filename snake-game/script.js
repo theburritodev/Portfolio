@@ -2,8 +2,12 @@ const canvas = document.querySelector("canvas");
 canvas.width = 50;
 canvas.height = 50;
 canvas.style.backgroundColor = "#000";
-canvas.style.width = "100%";
-canvas.style.height = "100%";
+canvas.style.width = "30%";
+canvas.style.height = "30%";
+canvas.style.position = "fixed";
+canvas.style.left = "50%";
+canvas.style.top = "50%";
+canvas.style.transform = "translate(-50%, -50%)";
 const ctx = canvas.getContext("2d");
 
 canvas.style.imageRendering = "pixelated";
