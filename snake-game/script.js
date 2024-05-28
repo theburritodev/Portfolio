@@ -1,16 +1,21 @@
 const canvas = document.querySelector("canvas");
-canvas.width = 100;
-canvas.height = 100;
+canvas.width = 50;
+canvas.height = 50;
 canvas.style.backgroundColor = "#000";
 canvas.style.width = "100%";
 canvas.style.height = "100%";
 const ctx = canvas.getContext("2d");
 
+canvas.style.imageRendering = "pixelated";
+
 const snake = [];
 
+const colors = ["#f00","#ff0","#f0f","#0ff"];
+var color_index = 0;
+
 const apple = {
-  x : Math.floor(Math.random()*100),
-  y : Math.floor(Math.random()*100)
+  x : Math.floor(Math.random()*canvas.width),
+  y : Math.floor(Math.random()*canvas.height)
 }
 
 const SnakeHead = {
@@ -48,37 +53,44 @@ addEventListener("keypress",(e)=>{
 
 const animate = ()=>{
   requestAnimationFrame(animate);
-  ctx.clearRect(0,0,100,100);
-  for(let body in snake)
-  {
-    ctx.fillStyle = "green";
-    ctx.fillRect(snake[body].x, snake[body].y, 1, 1);
-  }
+  ctx.clearRect(0,0,50,50);
   
   ctx.fillStyle = "red";
   ctx.fillRect(apple.x, apple.y, 1, 1);
   
-  ctx.fillStyle = "green";
+  ctx.fillStyle = colors[color_index];
   ctx.fillRect(SnakeHead.x, SnakeHead.y, 1, 1);
+  
+  for(let body in snake)
+  {
+    ctx.fillStyle = colors[color_index];
+    ctx.fillRect(snake[body].x, snake[body].y, 1, 1);
+  }
   
   if(SnakeHead.x == apple.x && SnakeHead.y == apple.y)
   {
-    apple.x = Math.floor(Math.random()*100);
-    apple.y = Math.floor(Math.random()*100);
+    apple.x = Math.floor(Math.random()*canvas.width);
+    apple.y = Math.floor(Math.random()*canvas.height);
     
     snake.push({
       x : SnakeHead.x-SnakeHead.speedX,
       y : SnakeHead.y-SnakeHead.speedY
     });
+    color_index++;
+    if(color_index >= colors.length) color_index = 0;
   }
 }
 requestAnimationFrame(animate);
 
 setInterval(function(){
+  if(snake.length > 0)
+  {
+    snake.splice(0, 1);
+    snake.push({
+      x : SnakeHead.x,
+      y : SnakeHead.y
+    });
+  }
   SnakeHead.x += SnakeHead.speedX;
   SnakeHead.y += SnakeHead.speedY;
-  if(snake.length > 1)
-  {
-    snake[snake.length]
-  }
 },50);
