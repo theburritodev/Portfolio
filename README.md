@@ -13,6 +13,9 @@ Aqui estão alguns dos meus projetos mais recentes e interessantes:
 ### [Calculadora web](https://theburritodev.github.io/Portfolio/Calculadora%20web/)
 Uma calculadora simples criada com Html, Css e Javascript nativo.
 
+### [Snake game](https://theburritodev.github.io/Portfolio/snake-game/)
+Uma recriação simples do jogo snake game feito com javascript nativo.
+
 ## Contato
 
 - **Email:** leonardopinezi.ti@gmail.com
