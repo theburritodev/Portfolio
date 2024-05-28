@@ -16,6 +16,9 @@ Uma calculadora simples criada com Html, Css e Javascript nativo.
 ### [Snake game](https://theburritodev.github.io/Portfolio/snake-game/)
 Uma recriação simples do jogo snake game feito com javascript nativo.
 
+### [Daily phrases](https://theburritodev.github.io/Portfolio/daily-phrases/)
+Receba uma citação famosa da cultura pop.
+
 ## Contato
 
 - **Email:** leonardopinezi.ti@gmail.com
