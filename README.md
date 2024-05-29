@@ -19,6 +19,9 @@ Uma recriação simples do jogo snake game feito com javascript nativo.
 ### [Daily phrases](https://theburritodev.github.io/Portfolio/daily-phrases/)
 Receba uma citação famosa da cultura pop.
 
+### [Postit online](https://theburritodev.github.io/Portfolio/postit-online/)
+Crie e escreva postits online gratuitamente (update com publicação em breve)
+
 ## Contato
 
 - **Email:** leonardopinezi.ti@gmail.com
