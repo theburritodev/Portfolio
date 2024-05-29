@@ -1,6 +1,6 @@
 # Meu Portfólio
 
-Bem-vindo ao meu portfólio! Sou lwonardo, um jovem programador front-end brasileiro de 17 anos apaixonado por criar experiências incríveis na web. Neste repositório, você encontrará alguns dos meus projetos destacados e informações sobre como entrar em contato comigo.
+Bem-vindo ao meu portfólio! Sou leonardo, um jovem programador front-end brasileiro de 17 anos apaixonado por criar experiências incríveis na web. Neste repositório, você encontrará alguns dos meus projetos destacados e informações sobre como entrar em contato comigo.
 
 ## Sobre Mim
 
