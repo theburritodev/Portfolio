@@ -1,0 +1,44 @@
+body,html
+{
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#postit
+{
+  outline: none;
+  width: 360px;
+  height: 330px;
+  background-color: #fcea94;
+  padding: 10px;
+  box-shadow: inset 0px 15px 15px #f8e63e, 0px 15px 15px #0005;
+  font-family: Comic Sans MS;
+  font-style: italic;
+  overflow-y: auto;
+  resize: auto;
+  transition: .05s;
+}
+
+*::-webkit-scrollbar {
+  height: 10px;
+  width: 10px;
+}
+*::-webkit-scrollbar-track {
+  background-color: #DFE9EB;
+}
+
+*::-webkit-scrollbar-track:active {
+  background-color: #DFE9EB;
+}
+
+*::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background-color: #FCE659;
+}
+
+*::-webkit-scrollbar-thumb:active {
+  background-color: #F7FC65;
+}
