@@ -22,6 +22,9 @@ Receba uma citação famosa da cultura pop.
 ### [Postit online](https://theburritodev.github.io/Portfolio/postit-online/)
 Crie e escreva postits online gratuitamente (update com publicação em breve)
 
+### [SnakeMiner](https://theburritodev.github.io/Portfolio/SnakeMiner/)
+Jogo de exploração simples, coma o mundo inteiro gerado proceduralmente e cresça, jogo ainda em beta e terá futuras atualizações.
+
 ## Contato
 
 - **Email:** leonardopinezi.ti@gmail.com
