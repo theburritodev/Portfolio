@@ -1,0 +1,44 @@
+body
+{
+  background-color: #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+*
+{
+  font-style: Arial;
+  color: #fff;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+canvas
+{
+  width: 100%;
+  background-color: #222;
+  image-rendering: pixelated;
+}
+
+#buttons
+{
+  display: flex;
+  padding: 20px;
+  width: 100%;
+  height: 100px;
+  justify-content: space-around;
+  position: fixed;
+  bottom: 10%;
+}
+
+#buttons button
+{
+  padding: 0;
+  background-color: #fff;
+  border: 0;
+  width: 100%;
+  height: 100%;
+}
