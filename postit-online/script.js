@@ -36,7 +36,10 @@ function obterDadosDoSheetDB() {
   fetch(apiUrl, requestOptions)
     .then(response => response.json())
     .then(data => {
-      document.getElementById("postit").innerText = data[0].content;
+      for(let i in data)
+        {
+          if(data[i].id == document.getElementById("name").value) document.getElementById("postit").innerText = data[i].content;
+        }
     })
     .catch(error => {
       console.error('Erro ao obter dados da base de dados:', error);
