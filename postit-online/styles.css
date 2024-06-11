@@ -6,6 +6,8 @@ body,html
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+  gap: 10px;
 }
 #postit
 {
@@ -20,6 +22,21 @@ body,html
   overflow-y: auto;
   resize: auto;
   transition: .05s;
+}
+
+*
+{
+  outline: none;
+}
+
+#name
+{
+  background-color: #222;
+  color: #fff;
+  border: 0;
+  padding: 10px;
+  box-shadow: inset 0px 0px 50px #111;
+  border-radius: 20px;
 }
 
 *::-webkit-scrollbar {
