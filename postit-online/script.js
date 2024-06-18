@@ -16,7 +16,7 @@ function post()
   fetch(apiUrl, requestOptions)
     .then(response => response.json())
     .then(data => {
-      alert('Novo post-it adicionado: ' + novoPostIt.id);
+      alert('Novo post-it adicionado:');
     })
     .catch(error => {
       console.error('Erro ao adicionar novo post-it:', error);
@@ -38,7 +38,7 @@ function obterDadosDoSheetDB() {
     .then(data => {
       for(let i in data)
         {
-          if(data[i].id == document.getElementById("name").value) document.getElementById("postit").innerText = data[i].content;
+          if(i == document.getElementById("name").value) document.getElementById("postit").innerText = data[i].content;
         }
     })
     .catch(error => {
