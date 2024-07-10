@@ -1,0 +1,253 @@
+body,html
+{
+  margin: 0;
+  padding: 0;
+}
+
+*
+{
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+a
+{
+  text-decoration: none;
+  color: #555;
+}
+
+
+
+header
+{
+  position: fixed;
+  background-color: #fff;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  box-shadow: 0px 1px 2px #0005;
+}
+
+header *
+{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+header ul
+{
+  display: flex;
+  align-items: center;
+  color: #555;
+  
+  gap: 5px;
+}
+
+header ul a
+{
+  cursor: pointer;
+  transition: .2s;
+}
+
+header ul a:hover
+{
+  color: SlateBlue;
+}
+
+header ul li h1
+{
+  color: SlateBlue;
+  padding: 10px;
+  transition: .2s;
+}
+
+header ul li h1:hover
+{
+  background-color: #00000007;
+  border-radius: 3px;
+}
+
+header ul li:hover
+{
+  color: SlateBlue;
+}
+
+header button, main #banner button
+{
+  color: SlateBlue;
+  background-color: transparent;
+  border: 1px solid #555;
+  padding: 15px 30px;
+  cursor: pointer;
+  font-size: 18px;
+  border-radius: 3px;
+  background-color: #fff;
+}
+
+header button:hover, main #banner button:hover
+{
+  border-color: #6960EC;
+}
+
+header #novo, main #banner #novo
+{
+  background-color: SlateBlue;
+  color: #fff;
+  
+  transition: .2s;
+}
+
+header #novo:hover, main #banner #novo:hover
+{
+  box-shadow: 0px 1px 2px #0005;
+  background-color: #6960EC;
+}
+
+
+
+
+main
+{
+  width: 100%;
+  padding: 0;
+}
+
+main #banner
+{
+  background-color: #222;
+  background-image: url('/images/main-banner.jpg');
+  background-size : cover;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  height: 100vh;
+}
+
+main #banner *
+{
+  margin: 0;
+}
+
+main #banner h1
+{
+  font-size: 50px;
+}
+
+
+main #overview
+{
+  padding: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+main #overview #sidebar
+{
+  width: 50%;
+}
+
+main #overview #sidebar ul
+{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+main #overview #sidebar ul li
+{
+  border: 1px solid #555;
+  width: 100%;
+  text-align: center;
+  padding: 5px;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: .2s;
+}
+
+main #overview #sidebar ul li:hover
+{
+  border-color: SlateBlue;
+  color: SlateBlue;
+}
+
+main #overview #sidebar ul li:active
+{
+  border-color: SlateBlue;
+  color: #fff;
+  background-color: SlateBlue;
+}
+
+main #overview .content
+{
+  width: 100%;
+  background-size: cover;
+  background-position-x: center;
+  opacity: 0.4;
+  transition: .5s;
+  color: #fff;
+  padding: 10px;
+  cursor: default;
+}
+
+main #overview .content *
+{
+  backdrop-filter: blur(5px) brightness(70%);
+  padding: 5px;
+  border-radius: 5px;
+}
+
+main #overview .content:hover
+{
+  opacity: 1;
+}
+
+main #overview #content-0
+{
+  background-image: url('/images/banner-0.jpg');
+}
+
+main #overview #content-1
+{
+  background-image: url('/images/banner-1.jpg');
+}
+
+main #overview #content-2
+{
+  background-image: url('/images/banner-2.jpg');
+}
+
+
+
+main #about-us
+{
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  align-items: center;
+}
+
+main #about-us p
+{
+  width: 70%;
+}
+
+
+
+footer
+{
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Komodify</title>
+    <link rel="stylesheet" href="style.css" type="text/css" media="all" />
+  </head>
+  <body>
+    <header>
+      <ul>
+        <li><h1>Komodify</h1></li>
+        <a href="#overview">Overview</a>
+        <a href="#about-us">About us</a>
+      </ul>
+      <div>
+        <button>Projects</button>
+        <button id="novo">New project</button>
+      </div>
+    </header>
+    
+    <main>
+      <div id="banner">
+        <h1>Handle your projects safely</h1>
+        <h5>Localy handle your projects in a simple way for free</h5>
+        <div>
+          <button id="novo">New project</button>
+          <button>Projects</button>
+        </div>
+      </div>
+      
+      <div id="overview">
+        <div id="sidebar">
+          <h1>Overview</h1>
+          <ul>
+            <li onclick="changeOverview(0)">Meet us</li>
+            <li onclick="changeOverview(1)">Why use Komodify?</li>
+            <li onclick="changeOverview(2)">Help us</li>
+          </ul>
+        </div>
+        <div class="content" id="content-0">
+          <h1 id="overview-title">What is Komodify?</h1>
+          <p id="overview-content">Komodify is a free project manager that all your projects are saved in a local storage.</p>
+        </div>
+        <div class="content" id="content-1">
+          <h1 id="overview-title">Why use Komodify?</h1>
+          <p id="overview-content">Komodify is a 100% free service that save all your projects in a local storage and you can share your projects creating a virtual link.</p>
+        </div>
+        <div class="content" id="content-2">
+          <h1 id="overview-title">Help us</h1>
+          <p id="overview-content">Komodify is a 100% free project so you can help us donating to make this project alive.</p>
+        </div>
+      </div>
+      
+      <div id="about-us">
+        <h1>About us</h1>
+        <p> Komodify is a project manager that saves your projects directly to the website's local storage, ensuring security and privacy without the need for external servers. Our platform allows you to organize your tasks in a simple and efficient way, with an intuitive interface that makes navigation and use easy. Furthermore, we share projects in a practical way through unique links, allowing for easy and quick collaboration. Komodify is ideal for students, professionals and anyone who wants to keep their projects organized and accessible.</p>
+      </div>
+      
+    </main>
+    
+    <hr />
+    
+    <footer>
+      <strong>© 2024 Example. All rights reserved.</strong>
+    </footer>
+  </body>
+  
+  <script src="animations.js" type="text/javascript" charset="utf-8"></script>
+</html>
