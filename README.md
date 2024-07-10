@@ -10,6 +10,9 @@ Sou um entusiasta autodidata da tecnologia, sempre buscando aprender e evoluir m
 
 Aqui estão alguns dos meus projetos mais recentes e interessantes:
 
+### [Komodify](https://theburritodev.github.io/Portfolio/Komodify/)
+Landing page criada do zero e de forma simples (update com responsividade em breve)
+
 ### [Calculadora web](https://theburritodev.github.io/Portfolio/Calculadora%20web/)
 Uma calculadora simples criada com Html, Css e Javascript nativo.
 
